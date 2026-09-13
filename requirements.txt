@@ -1,0 +1,13 @@
+# AI Portfolio Doctor - runtime dependencies
+# Floors are chosen so a single install resolves cleanly on Python 3.9 (local)
+# through 3.13 (Streamlit Community Cloud), including NumPy 2.x.
+streamlit>=1.40
+pandas>=2.2.2
+numpy>=1.26
+plotly>=5.20
+yfinance>=0.2.50
+scipy>=1.11
+
+# Testing (kept here so `pip install -r requirements.txt` yields a runnable
+# test environment out of the box).
+pytest>=7.4

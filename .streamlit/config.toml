@@ -1,0 +1,14 @@
+[theme]
+# Professional dark "analytics terminal" palette.
+base = "dark"
+primaryColor = "#4C8BF5"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#161B26"
+textColor = "#E6E9EF"
+font = "sans serif"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
